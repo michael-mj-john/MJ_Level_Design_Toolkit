@@ -1,0 +1,54 @@
+// This is an item database, it can only store item informations.
+// To add item icons, put your images under "/Assets/Resources/InventorySprites".
+// Item type template: Unusable, Consumable, Equipment, Mission
+[
+  {
+    "id": 0,
+    "title": "The Start of Item",
+    "stackable": false,
+    "description": "Do not add item before this.",
+    "initialAmount": 0,
+    "healthChanges": 0,
+    "type": "Unusable"
+  },
+
+  // Item sample copy start
+  {
+    "id": 1,
+    "title": "Item Sample",
+    "stackable": false,
+    "description": "This is a item sample, copy this to create your new item.",
+    "initialAmount": 0,
+    "healthChanges": 0,
+    "type": "Unusable"
+  },
+  // Item sample copy end
+
+  {
+    "id": 2,
+    "title": "Key",
+    "stackable": false,
+    "description": "Key item.",
+    "initialAmount": 1,
+    "healthChanges": 0,
+    "type": "Mission"
+  },
+  {
+    "id": 3,
+    "title": "Potion",
+    "stackable": true,
+    "description": "Increase 10 pts health.",
+    "initialAmount": 10,
+    "healthChanges": 1,
+    "type": "Consumable"
+  },
+  {
+    "id": 2147483647,
+    "title": "The End of Item",
+    "stackable": false,
+    "description": "The End of Item, do not add item after this.",
+    "initialAmount": 0,
+    "healthChanges": 0,
+    "type": "Unusable"
+  }
+]
